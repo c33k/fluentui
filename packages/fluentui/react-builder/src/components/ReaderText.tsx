@@ -6,7 +6,7 @@ export type ReaderTextProps = {
 };
 
 const AOMDisabledMessage =
-  'Accessible Object Model (AOM) feature is not enable. For more information on how to enable it, access https://wicg.github.io/aom/caniuse.html';
+  'Accessibility Object Model (AOM) feature is not enable. For more information on how to enable it, access https://wicg.github.io/aom/caniuse.html';
 
 export const ReaderText: React.FunctionComponent<ReaderTextProps> = ({ selector }) => {
   const ref = React.createRef<HTMLElement>();
